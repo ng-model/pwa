@@ -6,7 +6,7 @@ import { ThreeComponent } from './three/three.component';
 import { FourComponent } from './four/four.component';
 
 const routes: Routes = [
-  { path: 'dashboard', component: OneComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: TwoComponent},
   { path: 'contact', component: ThreeComponent},
   { path: 'other', component: FourComponent}

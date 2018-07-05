@@ -1,3 +1,38 @@
-<p>
-  two works!
-</p>
+<div class="container-fluid">
+  <div>
+    <div class="title p-3">Dummy Table can look like this !</div>
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Contact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td [routerLink]="['/contact']"> <a href="">@mdo</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td [routerLink]="['/contact']">@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="">Larry the Bird</td>
+            <td>hello</td>
+            <td [routerLink]="['/contact']">@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+   
+  </div>
+</div>
